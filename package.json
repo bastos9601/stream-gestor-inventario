@@ -1,0 +1,19 @@
+{
+  "name": "hplay-gestor",
+  "version": "1.0.0",
+  "description": "HPlay Gestor - Gestiona tus Suscripciones Streaming",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p $PORT -c-1",
+    "build": "echo 'No build step required for static site'"
+  },
+  "keywords": ["streaming", "gestor", "suscripciones", "hplay"],
+  "author": "HPlay Team",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
