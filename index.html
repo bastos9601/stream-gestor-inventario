@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HPlay Gestor - Gestiona tus Suscripciones Streaming</title>
+    <meta name="description" content="Organiza y gestiona todas tus suscripciones streaming en un solo lugar. Nunca más pierdas el control de tus cuentas favoritas.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <!-- Círculos flotantes de fondo -->
+        <div class="floating-circle-1"></div>
+        <div class="floating-circle-2"></div>
+        <div class="floating-circle-3"></div>
+        <div class="floating-circle-4"></div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <!-- Icono del monitor -->
+                <div class="hero-icon">
+                    <i class="fas fa-desktop"></i>
+                </div>
+                
+                <!-- Título principal -->
+                <h1 class="hero-title">
+                    HPlay <span class="hero-highlight">Gestor</span>
+                    <span class="hero-subtitle">Pro</span>
+                </h1>
+                
+                <!-- Descripción -->
+                <p class="hero-description">
+                    Organiza y gestiona todas tus suscripciones streaming en un solo lugar. 
+                    Nunca más pierdas el control de tus cuentas favoritas.
+                </p>
+                
+                <!-- Botones de características -->
+                <div class="hero-features">
+                    <div class="feature-button">
+                        <i class="fas fa-tv"></i>
+                        <span>Todas las Plataformas</span>
+                    </div>
+                    <div class="feature-button">
+                        <i class="fas fa-bell"></i>
+                        <span>Alertas de Vencimiento</span>
+                    </div>
+                    <div class="feature-button">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Datos Seguros</span>
+                    </div>
+                    <div class="feature-button">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Acceso Móvil</span>
+                    </div>
+                </div>
+                
+                <!-- Botón principal de acción -->
+                <div class="hero-cta">
+                    <a href="https://stream-gestor-iventario.onrender.com/login?next=%2F" class="btn btn-primary" target="_self">
+                        <i class="fas fa-play"></i>
+                        Acceder a Mi Panel
+                    </a>
+                </div>
+                
+                <!-- Texto de solicitud de acceso -->
+                <div class="hero-footer">
+                    <div class="access-hint">
+                        <i class="fas fa-user"></i>
+                        <span>Solicita tu acceso a tu proveedor de servicios</span>
+                    </div>
+                    <div class="scroll-indicator">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características Section -->
+    <section id="caracteristicas" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Por qué usar HPlay Gestor?</h2>
+                <p>La forma más fácil y segura de organizar todas tus suscripciones streaming en un solo lugar</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <h3>Todas tus Plataformas</h3>
+                    <p>Gestiona Netflix, Disney+, HBO Max, Spotify y todas tus plataformas favoritas desde un solo panel.</p>
+                    <ul>
+                        <li>Netflix, Disney+, HBO Max</li>
+                        <li>Spotify, YouTube Premium</li>
+                        <li>Y muchas más plataformas</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Datos Seguros</h3>
+                    <p>Guarda de forma segura todos los datos de tus cuentas: emails, contraseñas, perfiles y PINs.</p>
+                    <ul>
+                        <li>Encriptación de datos</li>
+                        <li>Acceso solo con tu usuario</li>
+                        <li>Información siempre protegida</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Alertas Inteligentes</h3>
+                    <p>Recibe notificaciones cuando tus suscripciones estén por vencer para que nunca pierdas acceso.</p>
+                    <ul>
+                        <li>Alertas automáticas</li>
+                        <li>Control de vencimientos</li>
+                        <li>Renovación fácil</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Búsqueda Rápida</h3>
+                    <p>Encuentra cualquier cuenta al instante con nuestro sistema de búsqueda y filtros avanzados.</p>
+                    <ul>
+                        <li>Búsqueda instantánea</li>
+                        <li>Filtros por plataforma</li>
+                        <li>Organización automática</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Acceso Móvil</h3>
+                    <p>Accede a todas tus suscripciones desde cualquier dispositivo: móvil, tablet o computadora.</p>
+                    <ul>
+                        <li>Diseño responsive</li>
+                        <li>Optimizado para móviles</li>
+                        <li>Sincronización automática</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <h3>Exporta tus Datos</h3>
+                    <p>Descarga toda tu información en formato CSV para tener un respaldo de todas tus cuentas.</p>
+                    <ul>
+                        <li>Exportación completa</li>
+                        <li>Formato estándar CSV</li>
+                        <li>Respaldo de seguridad</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plataformas Section -->
+    <section id="plataformas" class="platforms">
+        <div class="container">
+            <div class="section-header">
+                <h2>Gestiona Todas tus Plataformas</h2>
+                <p>Compatible con todas las plataformas de streaming que usas a diario</p>
+            </div>
+            <div class="platforms-grid">
+                <div class="platform-item">
+                    <div class="platform-logo netflix">
+                        <i class="fab fa-netflix"></i>
+                    </div>
+                    <span>Netflix</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo disney">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <span>Disney+</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo hbo">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <span>HBO Max</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo prime">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <span>Prime Video</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo spotify">
+                        <i class="fab fa-spotify"></i>
+                    </div>
+                    <span>Spotify</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo youtube">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <span>YouTube</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo apple">
+                        <i class="fab fa-apple"></i>
+                    </div>
+                    <span>Apple TV+</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo paramount">
+                        <i class="fas fa-film"></i>
+                    </div>
+                    <span>Paramount+</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo hulu">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <span>Hulu</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo crunchyroll">
+                        <i class="fas fa-play-circle"></i>
+                    </div>
+                    <span>Crunchyroll</span>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-logo deezer">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <span>Deezer</span>
+                </div>
+            </div>
+            <div class="platforms-footer">
+                <p>¿Usas otra plataforma?</p>
+                <p class="small">También puedes agregar plataformas personalizadas</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios Section -->
+    <section id="beneficios" class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>Beneficios para Ti</h2>
+                <p>Descubre cómo HPlay Gestor puede simplificar tu vida digital</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Ahorra Tiempo</h3>
+                    <p>No pierdas más tiempo buscando contraseñas o fechas de vencimiento</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Mantén Control</h3>
+                    <p>Ten todas tus suscripciones organizadas y nunca pierdas una renovación</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Visibilidad Total</h3>
+                    <p>Ve el estado de todas tus cuentas de un vistazo con alertas visuales</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-mouse-pointer"></i>
+                    </div>
+                    <h3>Fácil de Usar</h3>
+                    <p>Interfaz intuitiva que cualquier persona puede usar sin complicaciones</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cómo Funciona Section -->
+    <section id="como-funciona" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>¿Cómo Funciona?</h2>
+                <p>En solo 3 pasos tendrás todas tus suscripciones organizadas</p>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Solicita tu Acceso</h3>
+                    <p>Contacta a tu proveedor de servicios para que te cree una cuenta personal en el sistema.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Inicia Sesión</h3>
+                    <p>Accede con tu usuario y contraseña personalizada a tu panel de control seguro.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Gestiona Tus Cuentas</h3>
+                    <p>Agrega, edita y organiza todas tus suscripciones streaming desde un solo lugar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Panel Personal Section -->
+    <section class="personal-panel">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tu Panel Personal de Suscripciones</h2>
+                <p>Desde tu panel personal podrás gestionar todas tus cuentas streaming de manera eficiente y segura.</p>
+            </div>
+            <div class="panel-features">
+                <div class="panel-feature">
+                    <div class="panel-icon">
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <h3>Agregar Suscripciones</h3>
+                    <p>Añade nuevas cuentas con todos los detalles: email, contraseña, perfil y PIN.</p>
+                </div>
+                <div class="panel-feature">
+                    <div class="panel-icon">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <h3>Editar Información</h3>
+                    <p>Actualiza contraseñas, cambia fechas de vencimiento y modifica cualquier dato.</p>
+                </div>
+                <div class="panel-feature">
+                    <div class="panel-icon">
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <h3>Alertas de Vencimiento</h3>
+                    <p>Recibe notificaciones automáticas cuando tus suscripciones estén por vencer.</p>
+                </div>
+                <div class="panel-feature">
+                    <div class="panel-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Estadísticas Personales</h3>
+                    <p>Ve cuántas suscripciones tienes activas y el valor total de tus servicios.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿Listo para Organizar tus Suscripciones?</h2>
+                <p>Accede a tu panel personal y mantén todas tus cuentas streaming perfectamente organizadas</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary" onclick="accederPanel()">
+                        Acceder a Mi Panel
+                    </button>
+                </div>
+                <div class="cta-features">
+                    <div class="cta-feature">
+                        <i class="fas fa-user-shield"></i>
+                        <span>Acceso personal seguro</span>
+                    </div>
+                    <div class="cta-feature">
+                        <i class="fas fa-lock"></i>
+                        <span>Datos siempre protegidos</span>
+                    </div>
+                    <div class="cta-feature">
+                        <i class="fas fa-clock"></i>
+                        <span>Disponible 24/7</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>HPlay Gestor Pro</h3>
+                    <p>Tu plataforma personal para gestionar todas las suscripciones streaming. Mantén el control de tus cuentas favoritas de manera fácil y segura.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Características</h4>
+                    <ul>
+                        <li>Panel Personal</li>
+                        <li>Gestión de Cuentas</li>
+                        <li>Alertas de Vencimiento</li>
+                        <li>Exportar Datos</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Acceso</h4>
+                    <ul>
+                        <li><a href="#" onclick="accederPanel()">Mi Panel</a></li>
+                        <li><a href="#" onclick="solicitarAcceso()">Solicitar Acceso</a></li>
+                        <li><a href="#ayuda">Ayuda</a></li>
+                        <li><a href="#soporte">Soporte</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 HPlay Gestor Pro. Todos los derechos reservados.</p>
+                <p>Gestiona tus suscripciones con <i class="fas fa-heart"></i> y tecnología</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal para Acceder al Panel -->
+    <div id="panelModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Acceder a tu Panel</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Usuario:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal para Solicitar Acceso -->
+    <div id="accessModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Solicitar Acceso</h2>
+            <p>Para obtener acceso a tu panel personal, contacta a tu proveedor de servicios streaming.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email: info@hplaygestor.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>Teléfono: +1 (234) 567-8900</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <span>Horario: Lunes a Viernes 9:00 AM - 6:00 PM</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Partículas flotantes de fondo -->
+    <div class="particles-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <!-- Botón flotante de WhatsApp -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/51921146588?text=Hola! Me interesa conocer más sobre el servicio de HPlay Gestor. ¿Podrías darme más información?" target="_blank" class="whatsapp-button">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
